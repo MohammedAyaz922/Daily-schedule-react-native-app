@@ -1,0 +1,30 @@
+{
+  "name": "stackblitz-nativescript-react",
+  "main": "src/app.ts",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@nativescript/core": "~8.8.0",
+    "@nativescript/local-notifications": "^6.1.1",
+    "expo": "^52.0.17",
+    "expo-notifications": "^0.29.11",
+    "react": "^18.2.0",
+    "react-native": "^0.76.3",
+    "react-nativescript": "^5.0.0",
+    "react-nativescript-navigation": "^5.0.0"
+  },
+  "devDependencies": {
+    "@nativescript/preview-cli": "^1.0.14",
+    "@nativescript/stackblitz": "^0.0.8",
+    "@nativescript/tailwind": "^2.1.0",
+    "@nativescript/types-minimal": "~8.8.0",
+    "@nativescript/webpack": "~5.0.8",
+    "@types/react": "^18.2.0",
+    "metro": "^0.81.0",
+    "tailwindcss": "~3.4.0",
+    "typescript": "~5.4.0"
+  },
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  }
+}
